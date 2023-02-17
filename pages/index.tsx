@@ -8,6 +8,7 @@ import { Link as MUILink } from '@mui/material';
 import { Button as MuiButton } from  '@mui/material';
 import { GetStaticProps } from 'next'
 import JobDataType from "./types/JobDataType";
+import Navbar from "../components/Navbar";
 
 
 interface Props {
@@ -30,7 +31,7 @@ export default function Home({data }: Props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
+      <Navbar />
       <main className={styles.main}>
 
 

@@ -1,5 +1,5 @@
 import Document, {Html, Head, Main, NextScript} from "next/document";
-import EmotionRootStyleRegistry from './EmotionRootStyleRegistry';
+
 // will apply to the whole page
 class MyDocument extends Document{
     render() {
