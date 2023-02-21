@@ -11,6 +11,7 @@ import ListItemText from "@mui/material/ListItemText";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
+import GoogleMap from "../GoogleMap";
 
 const IndexView = () => {
   const theme = useTheme();
@@ -106,7 +107,12 @@ const IndexView = () => {
                     />
                 </ListItem>
             </List>
+            <GoogleMap />
+
         </Container>
+
+
+
 
       </Main>
     </Box>
